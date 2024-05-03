@@ -1,5 +1,5 @@
 #! /bin/bash
-# https://github.com/arfprsty810/aaPanel
+# https://github.com/d-jumper/aaPanel-lifetime
 
 Happy_Bt(){
 clear
