@@ -65,6 +65,7 @@ if [ "$BASH" ]; then
 fi
 
 clear
+bt default
 bt
 END
 
