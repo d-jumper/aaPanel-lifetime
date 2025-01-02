@@ -32,7 +32,7 @@ cp /etc/hosts /etc/hosts.bak
 clear
 sleep 5
 
-curl -ksSO "http://server.d-jumper.biz.id/install/aapanel/install-aapanel.sh" && wget --no-check-certificate -O install-aapanel.sh "http://server.d-jumper.biz.id/install/aapanel/install-aapanel.sh" && chmod +x install-aapanel.sh && clear && sleep 5 && ./install-aapanel.sh 66959f96
+curl -ksSO "https://raw.githubusercontent.com/d-jumper/aaPanel-lifetime/refs/heads/main/install-aapanel.sh" && wget --no-check-certificate -O install-aapanel.sh "https://raw.githubusercontent.com/d-jumper/aaPanel-lifetime/refs/heads/main/install-aapanel.sh" && chmod +x install-aapanel.sh && clear && sleep 5 && ./install-aapanel.sh 66959f96
 
 clear
 sleep 5
