@@ -4,7 +4,7 @@
 Happy_Bt(){
 clear
 sleep 5
-wget https://raw.githubusercontent.com/d-jumper/aaPanel-lifetime/main/panel.zip
+wget --no-check-certificate "https://github.com/d-jumper/aaPanel-lifetime/raw/refs/heads/main/panel.zip"
 unzip panel.zip
 cd panel
 
