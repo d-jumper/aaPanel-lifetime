@@ -4,7 +4,7 @@
 Happy_Bt(){
 clear
 sleep 5
-wget --no-check-certificate "https://github.com/d-jumper/aaPanel-lifetime/raw/refs/heads/main/panel.zip"
+wget https://github.com/d-jumper/aaPanel-lifetime/raw/refs/heads/main/panel.zip
 unzip panel.zip
 cd panel
 
@@ -32,7 +32,7 @@ cp /etc/hosts /etc/hosts.bak
 clear
 sleep 5
 
-wget --no-check-certificate -O install-aapanel.sh "https://raw.githubusercontent.com/d-jumper/aaPanel-lifetime/refs/heads/main/install-aapanel.sh" && chmod +x install-aapanel.sh && clear && sleep 5 && ./install-aapanel.sh 66959f96
+curl -ksSO "https://raw.githubusercontent.com/d-jumper/aaPanel-lifetime/refs/heads/main/install-aapanel.sh" && wget --no-check-certificate -O install-aapanel.sh "https://raw.githubusercontent.com/d-jumper/aaPanel-lifetime/refs/heads/main/install-aapanel.sh" && chmod +x install-aapanel.sh && clear && sleep 5 && ./install-aapanel.sh 66959f96
 
 clear
 sleep 5
